@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     A[Node-RED] -->|取得| B[InNode]
     B -->|バイナリデータ変換| C{convert2関数}
@@ -21,3 +22,4 @@ graph TD
     B --> N[接続ステータス更新]
     N --> O[接続]
     N --> P[切断]
+```

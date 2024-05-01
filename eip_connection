@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     A[開始] -->|configdataが配列か?| B{配列の確認}
     B -- はい --> C[バッファをconfigInstanceのサイズで割り当てる]
@@ -15,3 +16,4 @@ graph TD
     L --> M[設定で接続を追加する]
     M --> N['close'イベントを処理する]
     N --> Z
+```
